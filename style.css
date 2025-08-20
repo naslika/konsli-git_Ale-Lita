@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar container */
+nav {
+  background-color: #2a1204;
+  padding: 10px 20px;
+}
+
+/* Navbar list */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+/* Navbar link */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #935c21;
+}
+
+/* Logo di kiri */
+.logo {
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.logo span {
+  color: #935c21;
+}
